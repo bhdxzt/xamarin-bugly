@@ -5,7 +5,7 @@
 ## 关于 Bugly
 [http://bugly.qq.com/]
 
-当前 Buly 版本 : v1.2.9
+当前 Buly 版本 : *v1.2.9*
 已经支持的方法 
 
 ## 命名空间：
@@ -13,7 +13,7 @@ Com.Chteam.Agent
 
 ## 使用方法
 1. 引用 DLL
-2. 为 Android 项目添加一个 Application 类
+2. 为 Mono Android 项目添加一个 Application 类
 
 ``` csharp
     [Application]
