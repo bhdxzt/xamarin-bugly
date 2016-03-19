@@ -1,4 +1,4 @@
-package zoujian.com.agent;
+package com.chteam.agent;
 import android.content.Context;
 
 import com.tencent.bugly.crashreport.*;
@@ -8,8 +8,6 @@ import com.tencent.bugly.crashreport.*;
 public class BuglyAgentHelper {
     public static void init(Context context,String appId){
         CrashReport.initCrashReport(context,appId,false);
-
-
     }
     public static void setUserId(String userId){
         CrashReport.setUserId(userId);
