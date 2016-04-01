@@ -22,5 +22,5 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.1'
-    compile files('libs/bugly_1.2.9_release.jar')
+    compile files('libs/bugly_crash_release__2.1.jar')
 }
