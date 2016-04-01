@@ -5,7 +5,7 @@
 ## 关于 Bugly
 [http://bugly.qq.com/]
 
-当前 Buly 版本 : *v1.2.9*
+当前 Buly 版本 : *v2.1*
 已经支持的方法 
 
 ## 命名空间：
@@ -32,6 +32,15 @@ Com.Chteam.Agent
 
 
 # Release Note
+### v2.1
+已支持方法：
+
+CrashReport.setUserSceneTag
+> BuglyAgentHelper.setUserSceneTag
+
+CrashReport.putUserData
+> BuglyAgentHelper.putUserData
+
 ### v1.0
 已支持方法：
 CrashReport.initCrashReport
