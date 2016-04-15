@@ -1,13 +1,14 @@
 package com.chteam.agent;
 import android.content.Context;
 
+import com.tencent.bugly.Bugly;
 import com.tencent.bugly.crashreport.*;
 /**
  * Created by ZouJian on 2016/3/18.
  */
 public class BuglyAgentHelper {
     public static void init(Context context,String appId){
-        CrashReport.initCrashReport(context,appId,false);
+        Bugly.init(context,appId,false);
     }
 
     public static void init(Context context){
