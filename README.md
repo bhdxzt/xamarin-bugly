@@ -35,6 +35,7 @@
         }
     ```
 3. 如果需要使用升级推送功能，请配置```AndroidManifest.xml```文件中加入
+
     ```xml
     <activity
     android:name="com.tencent.bugly.beta.ui.BetaActivity"
