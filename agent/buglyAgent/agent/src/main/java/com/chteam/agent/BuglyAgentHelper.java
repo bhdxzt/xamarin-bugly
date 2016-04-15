@@ -2,6 +2,8 @@ package com.chteam.agent;
 import android.content.Context;
 
 import com.tencent.bugly.Bugly;
+import com.tencent.bugly.beta.Beta;
+import com.tencent.bugly.beta.UpgradeInfo;
 import com.tencent.bugly.crashreport.*;
 /**
  * Created by ZouJian on 2016/3/18.
@@ -22,7 +24,7 @@ public class BuglyAgentHelper {
         CrashReport.setUserSceneTag(context, i);
     }
     public static void putUserData(Context context,String key,String value){
-        CrashReport.putUserData(context, key,value);
+        CrashReport.putUserData(context, key, value);
     }
 
     public static void testJavaCrash(){
@@ -32,4 +34,11 @@ public class BuglyAgentHelper {
         CrashReport.postCatchedException(catchedThrowed);
     }
 
+    public static void checkUpgrade(){
+        Beta.checkUpgrade();
+    }
+
+    public static UpgradeInfo getUpgradeInfo(){
+        return Beta.getUpgradeInfo();
+    }
 }
