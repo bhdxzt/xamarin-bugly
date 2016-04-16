@@ -1,5 +1,5 @@
 # xamarin-bugly for android
-========================
+
 [![install from nuget](http://img.shields.io/nuget/v/Bugly.svg?style=flat-square)](https://www.nuget.org/packages/Bugly)
 [![release](https://img.shields.io/github/release/chsword/xamarin-bugly.svg?style=flat-square)](https://github.com/chsword/xamarin-bugly/releases)
 [![Build status](https://ci.appveyor.com/api/projects/status/36lyx13fig2q2xyb/branch/master?svg=true)](https://ci.appveyor.com/project/chsword/xamarin-bugly/branch/master)
