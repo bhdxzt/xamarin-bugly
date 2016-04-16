@@ -37,6 +37,12 @@
     android:name="com.tencent.bugly.beta.ui.BetaActivity"
     android:theme="@android:style/Theme.Translucent" />
     ```
+    
+    检查更新代码
+    
+    ```c#
+    Com.Chteam.Agent.BuglyAgentHelper.CheckUpgrade();
+    ```
 
 # Release Note
 
