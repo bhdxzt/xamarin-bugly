@@ -4,12 +4,8 @@
 [![release](https://img.shields.io/github/release/chsword/xamarin-bugly.svg?style=flat-square)](https://github.com/chsword/xamarin-bugly/releases)
 [![Build status](https://ci.appveyor.com/api/projects/status/36lyx13fig2q2xyb/branch/master?svg=true)](https://ci.appveyor.com/project/chsword/xamarin-bugly/branch/master)
 
-已经打包为 DLL 内部已经集成 Jar 包，无需再次引用
-
-## 关于 Bugly
-[http://bugly.qq.com/]
-
-当前 Buly 版本 : *v2.1*
+* 已经打包为 DLL 内部已经集成 Jar 包，无需再次引用
+* 当前 Buly 版本 : *v2.1*
 
 ## 使用方法
 1. 引用 DLL
@@ -77,3 +73,9 @@ CrashReport.postCatchedException
 
 ## 命名空间：
 Com.Chteam.Agent
+
+
+## 关于 Bugly
+
+[Bugly官网](http://bugly.qq.com/)
+[Bugly说明](http://bugly.qq.com/introduction)
