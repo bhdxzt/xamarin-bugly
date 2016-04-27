@@ -46,6 +46,10 @@
 
 # Release Note
 
+### v2.1.11
+
+* 支持 bugly_crash_upgrade_1.0.1-beta2.jar
+
 ### v2.1.10
 * 支持[应用内升级提醒功能](http://bugly.qq.com/betaAndroidSdk)
 * 修改为支持 bugly_crash_upgrade_1.0.0.jar
