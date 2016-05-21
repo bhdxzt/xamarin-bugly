@@ -5,7 +5,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/36lyx13fig2q2xyb/branch/master?svg=true)](https://ci.appveyor.com/project/chsword/xamarin-bugly/branch/master)
 
 * 已经打包为 DLL 内部已经集成 Jar 包，无需再次引用
-* 当前 Buly 版本 : *v2.1*
+* 当前 Buly 版本 : *v2.1.3*
 
 ## 使用方法
 1. 引用 DLL
@@ -45,6 +45,15 @@
     ```
 
 # Release Note
+
+### v2.1.30
+* 支持 bugly_crash_upgrade_1.0.2.jar
+    * 开放Beta.checkUpgrade(boolean isManual, boolean isSilence)接口；
+    * 更新Bugly Android SDK包 v2.1.3 版本功能。
+    * 优化Native异常合并逻辑；
+    * 优化上报流量控制；
+    * 优化运营数据上报逻辑；
+    * 修复小概率数据重复上报问题。
 
 ### v2.1.12
 
