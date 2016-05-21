@@ -46,6 +46,10 @@
 
 # Release Note
 
+### v2.1.12
+
+* 支持 bugly_crash_upgrade_1.0.1.jar
+
 ### v2.1.11
 
 * 支持 bugly_crash_upgrade_1.0.1-beta2.jar
