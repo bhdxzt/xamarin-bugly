@@ -5,7 +5,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/36lyx13fig2q2xyb/branch/master?svg=true)](https://ci.appveyor.com/project/chsword/xamarin-bugly/branch/master)
 
 * 已经打包为 DLL 内部已经集成 Jar 包，无需再次引用
-* 当前 Buly 版本 : *v2.1.3*
+* 当前 Buly 版本 : *v2.1.7*
 
 ## 使用方法
 1. 引用 DLL
@@ -45,6 +45,13 @@
     ```
 
 # Release Note
+
+### v2.1.31
+* 支持 upgrade 1.1.0 / bugly 2.1.7
+    * 新增自定义更新弹窗样式功能；
+    * 新增弹窗黑名单功能；
+    * 优化弹窗逻辑；
+    * 修复部分BUG。
 
 ### v2.1.30
 * 支持 bugly_crash_upgrade_1.0.2.jar
