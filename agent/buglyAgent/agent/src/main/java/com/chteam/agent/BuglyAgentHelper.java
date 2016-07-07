@@ -30,6 +30,23 @@ public class BuglyAgentHelper {
     public static void testJavaCrash(){
         CrashReport.testJavaCrash();
     }
+
+    public static void closeBugly(){
+        CrashReport.closeBugly();
+    }
+    public static void closeCrashReport(){
+        CrashReport.closeCrashReport();
+    }
+    public static void setAppVersion(Context context,String version){
+        CrashReport.setAppVersion(context, version);
+    }
+    public static void setIsDevelopmentDevice(Context context,boolean isDevelopment){
+
+        CrashReport.setIsDevelopmentDevice(context, isDevelopment);
+    }
+    public static void setIsDevelopmentDevice1(Context context,boolean isForeground){
+        CrashReport.setIsAppForeground(context, isForeground);
+    }
     public static void postCatchedException(Throwable catchedThrowed){
         CrashReport.postCatchedException(catchedThrowed);
     }
@@ -37,7 +54,9 @@ public class BuglyAgentHelper {
     public static void checkUpgrade(){
         Beta.checkUpgrade();
     }
-
+    public static void cancelDownload(){
+        Beta.cancelDownload();
+    }
     public static UpgradeInfo getUpgradeInfo(){
         return Beta.getUpgradeInfo();
     }
