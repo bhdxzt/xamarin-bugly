@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Bugly</id>
-    <version>2.1.32.0</version>
+    <version>2.1.33.0</version>
     <title>Bugly for Xamarin Android</title>
     <authors>Zou Jian</authors>
     <owners>chsword</owners>
