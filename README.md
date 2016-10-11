@@ -5,8 +5,8 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/36lyx13fig2q2xyb/branch/master?svg=true)](https://ci.appveyor.com/project/chsword/xamarin-bugly/branch/master)
 
 * 已经打包为 DLL 内部已经集成 Jar 包，无需再次引用
-* 当前 Upgrade 版本 : *v1.1.4*
-* 当前 Buly 版本 : *v2.2.2*
+* 当前 Upgrade 版本 : *v1.1.6*
+* 当前 Buly 版本 : *v2.3.0*
 
 ## 使用方法
 1. 引用 DLL
@@ -46,6 +46,14 @@
     ```
 
 # Release Note
+
+### v2.3.0.0
+
+* 2016-10-11
+* 适配Android 7.0文件权限
+* 优化弹窗展示
+* 性能优化并修复若干bug
+* 集成Bugly2.3.0版本
 
 ### v2.1.44
 
