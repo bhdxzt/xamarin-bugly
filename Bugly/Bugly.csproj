@@ -18,7 +18,7 @@
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <AndroidClassParser>class-parse</AndroidClassParser>
+    <AndroidClassParser>jar2xml</AndroidClassParser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
