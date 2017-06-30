@@ -145,7 +145,7 @@ Com.Chteam.Agent
 
 ## 关于 Bugly
 
-[Bugly官网http://bugly.qq.com/](http://bugly.qq.com/)
+[Bugly官网 http://bugly.qq.com/](http://bugly.qq.com/)
 
 [Bugly说明](http://bugly.qq.com/introduction)
 
