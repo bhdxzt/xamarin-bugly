@@ -7,4 +7,9 @@
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
   <!--<attr path="/api/package[@name='com.tencent.bugly.crashreport']" name="managedName">Bugly</attr>-->
+
+
+  <!--<remove-node path="/api/package[@name='com.tencent.tinker.android.dex']/class[@name='TableOfContents.Section.Item']" />-->
+  <attr path="/api/package/class/method[@name='compareTo']/parameter[1]" name="managedType">Java.Lang.Object</attr>
+
 </metadata>
