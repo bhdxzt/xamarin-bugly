@@ -4,9 +4,9 @@
 [![release](https://img.shields.io/github/release/chsword/xamarin-bugly.svg?style=flat-square)](https://github.com/chsword/xamarin-bugly/releases)
 [![Build status](https://ci.appveyor.com/api/projects/status/36lyx13fig2q2xyb/branch/master?svg=true)](https://ci.appveyor.com/project/chsword/xamarin-bugly/branch/master)
 
-* 已经打包为 DLL 内部已经集成 Jar 包，无需再次引用
-* 当前 Upgrade 版本 : *v1.1.6*
-* 当前 Buly 版本 : *v2.3.0*
+* 已经打包为 DLL 内部已经集成 aar 包，无需再次引用
+* 当前 Upgrade 版本 : *v.1.3.1*
+* 当前 Buly 版本 : *v3.1.3.2*
 
 ## 使用方法
 1. 引用 DLL
@@ -36,6 +36,7 @@
     ```xml
     <activity
     android:name="com.tencent.bugly.beta.ui.BetaActivity"
+	android:configChanges="keyboardHidden|orientation|screenSize|locale"
     android:theme="@android:style/Theme.Translucent" />
     ```
     
@@ -46,6 +47,14 @@
     ```
 
 # Release Note
+
+### v3.1.3.1
+* 2017-06-30
+* upgrade 1.3.1 版本
+* 更新Tinker版本至1.7.11，支持360加固
+* aar内置权限、activity、fileProvider配置，无须手动配置
+* 对应tinker-support 1.0.8
+* 集成Bugly 2.6.5版本
 
 ### v2.3.0.0
 
@@ -138,3 +147,4 @@ Com.Chteam.Agent
 
 [Bugly官网](http://bugly.qq.com/)
 [Bugly说明](http://bugly.qq.com/introduction)
+[官方使用文档](https://bugly.qq.com/docs/user-guide/instruction-manual-android-upgrade)
