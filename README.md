@@ -5,8 +5,8 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/36lyx13fig2q2xyb/branch/master?svg=true)](https://ci.appveyor.com/project/chsword/xamarin-bugly/branch/master)
 
 * 已经打包为 DLL 内部已经集成 aar 包，无需再次引用
-* 当前 Upgrade 版本 : *v.1.3.1*
-* 当前 Buly 版本 : *v3.1.3.2*
+* 当前 Upgrade 版本 : *v.1.4.2*
+* 当前 Buly 版本 : *v4.3.1.0*
 
 ## 使用方法
 1. 引用 DLL
@@ -47,6 +47,11 @@
     ```
 
 # Release Note
+
+### v4.3.1.0
+* 修复Bugly log引起的anr问题
+* 修复本地db存储量过大引起cursor window full的问题
+
 
 ### v3.1.3.1
 * 2017-06-30
